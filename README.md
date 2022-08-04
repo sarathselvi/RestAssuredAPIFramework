@@ -1,0 +1,2 @@
+# RestAssuredAPIFramework
+RestAssuredAPIFramework development for TrusTrace Assignment
