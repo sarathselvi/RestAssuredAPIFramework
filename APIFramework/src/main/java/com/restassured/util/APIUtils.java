@@ -1,20 +1,24 @@
 package com.restassured.util;
-import static io.restassured.RestAssured.given;
 
-import com.restassured.enums.ConfigProperties;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
-import io.restassured.specification.RequestSpecification;
+import io.restassured.response.Response;
 
 public final class APIUtils {
 
 	private APIUtils() {
+	}
+
+	public static String readJsonAndGetAsString(String filepath) throws IOException {
+
+		return new String(Files.readAllBytes(Paths.get(filepath)));
 
 	}
 
-	
-	public static RequestSpecification buildRequestForGetCalls() {
-		
-		return given().baseUri(PropertyUtils.getValue(ConfigProperties.BASEURI));
-		
+	public static void storeStringAsJsonFile(String filepath, Response response) throws IOException {
+		Files.write(Paths.get(filepath), response.asByteArray());
 	}
+
 }
