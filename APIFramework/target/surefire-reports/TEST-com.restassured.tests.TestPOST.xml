@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="0" failures="0" name="com.restassured.tests.TestPOST" time="0" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.restassured.tests.TestPOST" time="3.535" errors="0" skipped="0">
   <properties>
     <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.13+10-LTS-370"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Sarath\Projects\APIFramework"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Sarath\git\RestAssuredAPIFramework\APIFramework"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Sarath\Projects\APIFramework"/>
+    <property name="user.dir" value="C:\Users\Sarath\git\RestAssuredAPIFramework\APIFramework"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\Sarath\Projects\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf10502208522298254464.tmp"/>
+    <property name="classworlds.conf" value="D:\Sarath\Projects\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf17406517028825648125.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Sarath\AppData\Local\Microsoft\WindowsApps;C:\adb;C:\Program Files\Git\cmd;C:\Users\Sarath\Downloads\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Users\Sarath\scoop\shims;C:\Users\Sarath\.dotnet\tools;."/>
     <property name="jdk.debug" value="release"/>
@@ -52,7 +52,7 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="11.0.13"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="D:\Sarath\Projects\APIFramework\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\Sarath\git\RestAssuredAPIFramework\APIFramework\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2021-10-19"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
@@ -62,4 +62,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
+  <testcase classname="com.restassured.tests.TestPOST" name="validatePostResponse" time="3.535"/>
 </testsuite>
